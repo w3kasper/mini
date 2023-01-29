@@ -61,7 +61,7 @@ const About = () => {
                 shooter with different PvP and PvE game modes for every type of
                 player. The core shooter game is set on top of a land
                 control-oriented, social strategy game with a deep emphasis on
-                clans, alliances and social mechanics.s
+                clans, alliances and social mechanics.
               </div>
               {/**COMMUNITY ANOUNCEMENTS */}
               <div className="text-2xl font-medium underline decoration-violet-800/[.3] underline-offset-[6px]">
