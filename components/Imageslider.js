@@ -186,13 +186,13 @@ const Imageslider = () => {
       {/*about bar */}
       <div className="flex justify-center m-1">
         <div className="container max-w-7xl">
-          <div class="flex justify-between px-8">
-            <div className="pt-[10px] px-[18px] md:pt-2 md:px-6 h-[40px] text-pink-600 outline outline-1 outline-pink-600 rounded text-sm md:text-base">
+          <div class="flex justify-center md:justify-between px-8">
+            <div className="hidden md:block pt-[10px] px-[18px] md:pt-2 md:px-6 h-[40px] text-pink-600 outline outline-1 outline-pink-600 rounded ">
               FARAWAY STUDIOS
             </div>
 
             <div className=" md:hidden">
-              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50 text-sm md:text-base">
+              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
                 EXPLORE COLLECTION
               </button>
             </div>
