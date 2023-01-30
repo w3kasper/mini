@@ -108,7 +108,7 @@ const Imageslider = () => {
       />
     </div>
   );
-  console.log(count);
+  //console.log(count);
   return (
     <>
       <div className="grid cols-1 justify-items-stretch">
@@ -187,12 +187,12 @@ const Imageslider = () => {
       <div className="flex justify-center m-1">
         <div className="container max-w-7xl">
           <div class="flex justify-between px-8">
-            <div className="pt-2 px-6 h-[40px] text-pink-600 outline outline-1 outline-pink-600 rounded">
+            <div className="pt-[10px] px-[18px] md:pt-2 md:px-6 h-[40px] text-pink-600 outline outline-1 outline-pink-600 rounded text-sm md:text-base">
               FARAWAY STUDIOS
             </div>
 
             <div className=" md:hidden">
-              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
+              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50 text-sm md:text-base">
                 EXPLORE COLLECTION
               </button>
             </div>
