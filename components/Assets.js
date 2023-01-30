@@ -25,7 +25,7 @@ const Assets = () => {
             </div>
 
             <div className="flex space-x-4 mr-2">
-              <div className="rounded-full bg-violet-950 outline outline-1 outline-pink-600 px-4 py-[6px] hover:cursor-pointer hover:opacity-50">
+              <div className="rounded-full bg-violet-950 outline outline-1 outline-pink-600 px-4 py-[5px] mt-[6px] md:mt-[6px] md:py-[6px] hover:cursor-pointer hover:opacity-50 text-sm md:text-base">
                 Recently Listed
               </div>
               <div className="hidden md:block rounded-full bg-violet-950 outline outline-1 outline-violet-800/[.4] px-4 py-[6px] hover:cursor-pointer hover:opacity-50">
