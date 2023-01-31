@@ -23,47 +23,52 @@ const Imageslider = () => {
   //
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imageType, setImageType] = useState(true);
+  const [mediaType, setMediaType] = useState(false);
 
   const setCountTo0 = () => {
+    setMediaType(0);
     count = 0;
     setCurrentIndex(count);
     setImageType(true);
   };
 
   const setCountTo1 = () => {
+    setMediaType(0);
     count = 1;
     setCurrentIndex(count);
     setImageType(false);
   };
 
   const setCountTo2 = () => {
+    setMediaType(0);
     count = 2;
     setCurrentIndex(count);
     setImageType(false);
   };
 
   const setCountTo3 = () => {
+    setMediaType(0);
     count = 3;
     setCurrentIndex(count);
     setImageType(false);
   };
 
   const setCountTo4 = () => {
+    setMediaType(0);
     count = 4;
     setCurrentIndex(count);
     setImageType(false);
   };
 
   const setCountTo5 = () => {
+    setMediaType(0);
     count = 5;
     setCurrentIndex(count);
     setImageType(false);
   };
 
-  const setCountToPlay = () => {
-    count = 0;
-    setCurrentIndex(count);
-    setImageType(false);
+  const setCountToGame = () => {
+    setMediaType(true);
   };
 
   const handleOnNextClick = () => {
@@ -89,6 +94,15 @@ const Imageslider = () => {
     }
   };
 
+  const renderGame = () => {
+    <div className="w-full h-full aspect-w-16 aspect-h-9">
+      <iframe
+        src="https://miniroyale.io"
+        className="justify-self-center px-8 pb-[8px] md:pb-2 pt-24 aspect-w-16 aspect-h-9"
+      ></iframe>
+    </div>;
+  };
+
   const renderImage = () => (
     <div className="grid cols-1 justify-items-stretch">
       <Image
@@ -112,7 +126,21 @@ const Imageslider = () => {
   return (
     <>
       <div className="grid cols-1 justify-items-stretch">
-        {imageType ? renderYoutube() : renderImage()}
+        {mediaType ? (
+          <div className="w-full h-full aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://miniroyale.io"
+              className="justify-self-center px-8 pb-[8px] md:pb-2 pt-24 aspect-w-16 aspect-h-9"
+              allow="autoplay; fullscreen; microphone"
+              allowfullscreen=""
+              sandbox="allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-same-origin"
+            ></iframe>
+          </div>
+        ) : imageType ? (
+          renderYoutube()
+        ) : (
+          renderImage()
+        )}
       </div>
       <div className="hidden">
         <button onClick={handleOnPrevClick}>
@@ -203,7 +231,7 @@ const Imageslider = () => {
               </button>
               <button
                 className="ml-4 px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50"
-                onClick={setCountToPlay}
+                onClick={setCountToGame}
               >
                 PLAY NOW
               </button>

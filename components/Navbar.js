@@ -8,6 +8,8 @@ import { SlArrowDown } from "react-icons/sl";
 import { FiSearch } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { FaWallet } from "react-icons/fa";
+
 //https://blog.logrocket.com/developing-responsive-layouts-with-react-hooks/
 
 const style = {
@@ -37,7 +39,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden lg:block">
-            <div className=" ml-6 w-[0px]  lg:w-[160px] h-10 rounded self-center bg-violet-950 outline outline-1 outline-violet-800/[.3] hover:cursor-pointer hover:opacity-50">
+            <div className=" ml-6 w-[0px]  lg:w-[160px] h-10 rounded self-center bg-violet-950 outline outline-1 outline-violet-800/[.3] hover:cursor-pointer hover:opacity-50 ">
               <div className="flex justify-center mt-[12px] ">
                 <div className="flex mt-2 space-x-4">
                   <div className="">
@@ -65,9 +67,12 @@ const Navbar = () => {
         <div className="flex">
           <div className=" md:w-[180px] h-[70px] p-[16px]">
             <div className="hidden md:block">
-              <div className="flex rounded outline outline-2 outline-pink-600 p-[8px] hover:cursor-pointer hover:opacity-50">
-                <div className="flex text-sm">
-                  <AiOutlineUser size={20} className="text-pink-600 mr-1" />
+              <div className="flex rounded bg-pink-600 p-[8px] hover:cursor-pointer hover:opacity-50">
+                <div className="flex text-sm px-1">
+                  <FaWallet
+                    size={16}
+                    className="text-gray-200 mr-[8px] mt-[2px]"
+                  />
                   Connect Wallet
                 </div>
               </div>
@@ -75,10 +80,10 @@ const Navbar = () => {
             <div className="block md:hidden">
               <div className="flex space-x-4">
                 <div className="p-2 rounded-full bg-violet-100/20 outline-2 outline-pink-600 hover:cursor-pointer hover:opacity-50">
-                  <FiSearch size={25} className="text-pink-600" />
+                  <FiSearch size={25} className="text-gray-200" />
                 </div>
-                <div className="p-2 rounded-full outline outline-2 outline-pink-600 hover:cursor-pointer hover:opacity-50">
-                  <AiOutlineUser size={25} className="text-pink-600" />
+                <div className="p-2 rounded-full bg-pink-600 hover:cursor-pointer hover:opacity-50">
+                  <FaWallet size={25} className="text-gray-200 p-1" />
                 </div>
               </div>
             </div>
