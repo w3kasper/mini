@@ -17,7 +17,7 @@ const Assets = () => {
   return (
     <>
       {/*asset bar */}
-      <div className="flex justify-center m-1 text-gray-200 mt-8">
+      <div className="flex justify-center m-1 text-gray-200 mt-0">
         <div className="container max-w-7xl">
           <div class="flex justify-between px-8">
             <div className="flex space-x-2">
@@ -25,10 +25,10 @@ const Assets = () => {
             </div>
 
             <div className="flex space-x-4 mr-2">
-              <div className="hidden md:block rounded-full bg-violet-950 outline outline-1 outline-pink-600 px-4 py-[5px] mt-[6px] hover:cursor-pointer hover:opacity-50 ">
+              <div className="hidden md:block rounded-full bg-violet-950 outline outline-1 outline-pink-600 px-4 py-[5px] hover:cursor-pointer hover:opacity-50 ">
                 Recently Listed
               </div>
-              <div className="hidden md:block rounded-full bg-violet-950 outline outline-1 outline-violet-800/[.4] px-4 py-[6px] hover:cursor-pointer hover:opacity-50">
+              <div className="hidden md:block rounded-full bg-violet-950 outline outline-1 outline-violet-800/[.4] px-4 py-[5px] hover:cursor-pointer hover:opacity-50">
                 Floor Price
               </div>
             </div>
@@ -36,7 +36,7 @@ const Assets = () => {
         </div>
       </div>
       {/**characters */}
-      <div className="flex justify-center mx-2 text-gray-200 mt-3">
+      <div className="flex justify-center mx-2 text-gray-200 mt-4">
         <div className="container max-w-7xl">
           <div className="flex items-center text-white justify-between space-x-6 mt-6 mx-8">
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
