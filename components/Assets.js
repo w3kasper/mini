@@ -40,31 +40,56 @@ const Assets = () => {
         <div className="container max-w-7xl">
           <div className="flex items-center text-white justify-between space-x-6 mt-6 mx-8">
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={image1} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={image1}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Hero #9617</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">2.75 SOL</div>
             </div>
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={image2} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={image2}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Hero #8812</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">4.25 SOL</div>
             </div>
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={image3} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={image3}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Hero #1597</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">8.00 SOL</div>
             </div>
             <div className="hidden md:block rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={image4} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={image4}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Hero #3647</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">69.42 SOL</div>
             </div>
             <div className="hidden md:block rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={image5} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={image5}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Hero #0024</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">3.50 SOL</div>
@@ -97,31 +122,56 @@ const Assets = () => {
         <div className="container max-w-7xl">
           <div className="flex items-center text-white justify-between space-x-6 mt-6 mx-8">
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={loot1} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={loot1}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Weapon #2114</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">1.25 SOL</div>
             </div>
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={loot2} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={loot2}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Weapon #2114</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">8.00 SOL</div>
             </div>
             <div className="rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={loot3} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={loot3}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Weapon #2114</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">6.969 SOL</div>
             </div>
             <div className="hidden md:block rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={loot4} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={loot4}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Weapon #2114</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">4.20 SOL</div>
             </div>
             <div className="hidden md:block rounded-lg overflow-hidden text-center space-y-1 bg-violet-950 outline outline-1 outline-violet-800/[.4] pb-3 hover:opacity-50 hover:cursor-pointer">
-              <Image className="" src={loot5} alt="Logo" width="200" />
+              <Image
+                className="rounded-lg"
+                src={loot5}
+                alt="Logo"
+                width="200"
+              />
               <div className="text-md pt-1">Miniverse Weapon #2114</div>
               <div className="text-sm text-pink-600">Mini Royale: Nations</div>
               <div className="font-bold">1.25 SOL</div>
