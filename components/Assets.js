@@ -117,7 +117,7 @@ const Assets = () => {
           </div>
         </div>
       </div>
-      {/**looty */}
+      {/**loot */}
       <div className="flex justify-center mx-2 text-gray-200">
         <div className="container max-w-7xl">
           <div className="flex items-center text-white justify-between space-x-6 mt-6 mx-8">

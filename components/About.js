@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+import Communityannouncements from "./Communityannouncements";
+
 import gameprofilepic from "../public/images/about/gameprofilepic.png";
-import community1 from "../public/images/about/community1.png";
-import community2 from "../public/images/about/community2.png";
 
 import { BsGlobe2 } from "react-icons/bs";
 import { RiTwitterFill } from "react-icons/ri";
@@ -64,75 +64,7 @@ const About = () => {
                 clans, alliances and social mechanics.
               </div>
               {/**COMMUNITY ANOUNCEMENTS */}
-              <div className="text-2xl font-medium underline decoration-violet-800/[.3] underline-offset-[6px]">
-                Community Announcements
-              </div>
-              <div className="flex pt-3">
-                {/**Announce 1 */}
-                <div className="flex justify-center w-2/2 md:w-1/2">
-                  <div className="rounded-lg m-4 outline outline-1 outline-violet-800/[.3] hover:opacity-50 hover:cursor-pointer">
-                    <Image
-                      className="justify-self-center w-full rounded-lg"
-                      src={community1}
-                      alt=""
-                    />
-                    <div className="pt-[6px] px-[6px] text-sm font-medium text-pink-600">
-                      Jan 9 2023{" "}
-                    </div>
-                    <div className="pt-[3px] pb-1 px-[6px] font-medium">
-                      Mini Royale: Nations x Magic Eden Limited Edition Skin &
-                      Grand Prize
-                    </div>
-                    <div class="flex justify-center md:justify-end mt-2 mb-2 mr-2 space-x-2">
-                      <div>
-                        <BsGlobe2 className="text-base p-[2px]" size={22} />
-                      </div>
-
-                      <div>
-                        <FiThumbsUp className="text-base p-[2px]" size={22} />
-                      </div>
-                      <div>
-                        <BiCommentDetail
-                          className="text-base p-[2px]"
-                          size={22}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/**Announce 2 */}
-                <div className="hidden md:flex justify-center w-1/2">
-                  <div className="rounded-lg m-4 outline outline-1 outline-violet-800/[.3] hover:opacity-50 hover:cursor-pointer">
-                    <Image
-                      className="justify-self-center w-full rounded-lg"
-                      src={community2}
-                      alt=""
-                    />
-                    <div className="pt-[6px] px-[6px] text-sm font-medium text-pink-600">
-                      Jan 5 2023{" "}
-                    </div>
-                    <div className="pt-[3px] pb-1 px-[6px] font-medium">
-                      Gear & Power Level are Live on Mini Royale: Nations! Check
-                      it!
-                    </div>
-                    <div class="flex justify-center md:justify-end mt-2 mb-2 mr-2 space-x-2">
-                      <div>
-                        <BsGlobe2 className="text-base p-[2px]" size={22} />
-                      </div>
-
-                      <div>
-                        <FiThumbsUp className="text-base p-[2px]" size={22} />
-                      </div>
-                      <div>
-                        <BiCommentDetail
-                          className="text-base p-[2px]"
-                          size={22}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Communityannouncements />
             </div>
 
             {/**SIDE NOTES */}
