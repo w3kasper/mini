@@ -76,7 +76,6 @@ const Communityannouncements = () => {
             </div>
             <div className="flex justify-center md:justify-end mt-2 mb-2 md:mr-[14px] space-x-2">
               <div className="flex  items-center outline outline-1 outline-violet-800/30 mb-[6px] py-1 px-[10px] rounded-full space-x-1">
-                <div className="">25</div>
                 <div>
                   <FiThumbsUp className="text-base mb-[3px]" size={19} />
                 </div>
@@ -121,7 +120,6 @@ const Communityannouncements = () => {
             </div>
             <div className="flex justify-center md:justify-end mt-2 mb-2 md:mr-[14px] space-x-2">
               <div className="flex  items-center outline outline-1 outline-violet-800/30 mb-[6px] py-1 px-[10px] rounded-full space-x-1">
-                <div className="">25</div>
                 <div>
                   <FiThumbsUp className="text-base mb-[3px]" size={19} />
                 </div>
