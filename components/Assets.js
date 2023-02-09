@@ -19,7 +19,7 @@ const Assets = () => {
       {/*asset bar */}
       <div className="flex justify-center m-1 text-gray-200 mt-0">
         <div className="container max-w-7xl">
-          <div class="flex justify-between px-8">
+          <div className="flex justify-between px-8">
             <div className="flex space-x-2">
               <div className="text-2xl font-bold">Assets: Characters</div>
             </div>
@@ -101,7 +101,7 @@ const Assets = () => {
       {/**LOOT ITEMS */}
       <div className="flex justify-center m-1 text-gray-200 mt-6">
         <div className="container max-w-7xl">
-          <div class="flex justify-between px-8">
+          <div className="flex justify-between px-8">
             <div className="flex space-x-2">
               <div className="text-2xl font-bold">Assets: Loot</div>
             </div>

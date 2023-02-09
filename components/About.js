@@ -115,7 +115,7 @@ const About = () => {
               <div className="m-[15px] xl:m-[40px] pt-[6px] rounded-lg bg-violet-950 outline outline-1 outline-violet-800/[.3]">
                 <div className="flex mt-[10px]">
                   <div className="w-1/5 ">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <BsPersonCircle className="text-base p-[2px]" size={20} />
                     </div>
                   </div>
@@ -124,7 +124,7 @@ const About = () => {
 
                 <div className="flex mt-[6px]">
                   <div className="w-1/5">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <IoIosPeople className="text-base p-[2px]" size={20} />
                     </div>
                   </div>
@@ -133,7 +133,7 @@ const About = () => {
 
                 <div className="flex mt-[6px]">
                   <div className="w-1/5">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <BsStars className="text-base p-[2px]" size={20} />
                     </div>
                   </div>
@@ -142,7 +142,7 @@ const About = () => {
 
                 <div className="flex mt-[6px]">
                   <div className="w-1/5">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <RiMoneyDollarCircleLine
                         className="text-base p-[2px]"
                         size={20}
@@ -154,7 +154,7 @@ const About = () => {
 
                 <div className="flex mt-[6px]">
                   <div className="w-1/5">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <RiGamepadLine className="text-base p-[2px]" size={20} />
                     </div>
                   </div>
@@ -163,7 +163,7 @@ const About = () => {
 
                 <div className="flex mt-[6px]">
                   <div className="w-1/5">
-                    <div class="flex justify-center">
+                    <div className="flex justify-center">
                       <TbTournament className="text-base p-[2px]" size={20} />
                     </div>
                   </div>
@@ -176,26 +176,26 @@ const About = () => {
                 </div>
                 <div className="flex mt-[12px] font-light px-4 text-xs">
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-English-</div>
+                    <div className="flex justify-center ">-English-</div>
                   </div>
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-Russian-</div>
+                    <div className="flex justify-center ">-Russian-</div>
                   </div>
                 </div>
                 <div className="flex mt-[6px]  font-light px-4 text-xs">
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-German-</div>
+                    <div className="flex justify-center ">-German-</div>
                   </div>
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-Mandarin-</div>
+                    <div className="flex justify-center ">-Mandarin-</div>
                   </div>
                 </div>
                 <div className="flex mt-[6px]  font-light px-4 pb-[12px] text-xs">
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-Japanese-</div>
+                    <div className="flex justify-center ">-Japanese-</div>
                   </div>
                   <div className="w-1/2">
-                    <div class="flex justify-center ">-Brazilian-</div>
+                    <div className="flex justify-center ">-Brazilian-</div>
                   </div>
                 </div>
               </div>

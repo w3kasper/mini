@@ -216,12 +216,12 @@ const Imageslider = () => {
       {/*about bar */}
       <div className="flex justify-center m-1">
         <div className="container max-w-7xl">
-          <div class="flex justify-center md:justify-between px-8">
+          <div className="flex justify-center md:justify-between px-8">
             <div className="hidden md:block pt-[10px] px-[18px] md:pt-2 md:px-6 h-[40px] text-pink-600 outline outline-1 outline-pink-600 rounded ">
               FARAWAY STUDIOS
             </div>
 
-            <div className=" md:hidden">
+            <div className="md:hidden">
               <a
                 target="_blank"
                 href="https://magiceden.io/creators/miniroyale"
