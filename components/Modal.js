@@ -20,8 +20,6 @@ const Modal = ({
     if (e.target.id === "container") onClose();
   };
 
-  console.log(imageTop);
-
   if (!visible) return null;
   return (
     <div
@@ -31,6 +29,7 @@ const Modal = ({
     >
       <div className=" bg-violet-950 outline outline-1 outline-violet-800/30 text-gray-200 rounded-lg w-2/2 m-7 sm:m-16 lg:w-2/5">
         {/**image and date */}
+        {console.log(imageTop)}
         <div className="flex justify-between pt-6">
           <div className="flex justify-center items-center space-x-3 px-3 sm:px-6 ">
             <div className="outline outline-1 outline-violet-800/30 rounded-full p-1 md:p-2">
@@ -43,7 +42,7 @@ const Modal = ({
               />{" "}
             </div>
             <div className="">
-              <div className="hidden md:flex font-light">{postedBy}xxxxx</div>
+              <div className="hidden md:flex font-light">{postedBy}</div>
               <div className="hidden md:flex text-pink-600 font-semibold">
                 {announceDate}
               </div>
@@ -79,7 +78,6 @@ const Modal = ({
             </div>
           </div>
         </div>
-
         {/**title */}
         <div className="flex justify-center">
           <div className="text-lg md:text-2xl px-8 pt-2 pb-1">{textTitle}</div>
@@ -87,12 +85,11 @@ const Modal = ({
         <div className="flex md:hidden text-pink-600 font-semibold px-8">
           {announceDate}
         </div>
-
         {/** IMAGE/TEXTBOX*/}
         <div className="flex justify-center py-2 px-4">
           <Image
             className="m-4 rounded-lg w-full"
-            src={imageTop}
+            src={"/" + imageTop}
             alt="Picture of the top"
             width={1000}
             height={1000}
@@ -111,7 +108,6 @@ const Modal = ({
           />{" "}
         </div>
         {/** Comments */}
-
         <div className="flex justify-center px-16">
           <div className="flex outline outline-1 outline-violet-800/30 rounded-full space-x-3 p-2">
             <div className="flex space-x-2">
