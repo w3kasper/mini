@@ -23,7 +23,7 @@ const Imageslider = () => {
   //
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imageType, setImageType] = useState(true);
-  const [mediaType, setMediaType] = useState(true);
+  const [mediaType, setMediaType] = useState(false);
 
   const setCountTo0 = () => {
     setMediaType(0);
