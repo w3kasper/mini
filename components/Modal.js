@@ -20,6 +20,8 @@ const Modal = ({
     if (e.target.id === "container") onClose();
   };
 
+  console.log(imageTop);
+
   if (!visible) return null;
   return (
     <div
@@ -92,6 +94,8 @@ const Modal = ({
             className="m-4 rounded-lg w-full"
             src={imageTop}
             alt="Picture of the top"
+            width={1000}
+            height={1000}
           />{" "}
         </div>
         <div className="text-justify px-4 md:px-6 xl:px-10 py-2">
@@ -102,8 +106,8 @@ const Modal = ({
             className="m-4 rounded-lg w-full"
             src={imageBottom}
             alt="Picture of the bottom"
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
           />{" "}
         </div>
         {/** Comments */}
