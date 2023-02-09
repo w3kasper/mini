@@ -61,7 +61,7 @@ const Communityannouncements = () => {
             setShowTextBlurb(
               "Mini Royale: Nations has partnered with Magic Eden to release a limited edition Season 4 Premium Hero skin! The Magic Eden Shadow Ronin is one of four skin variations of the all new Shadow Ronin Hero, live now in the Premium Samurai Drop until January 19. How to unlock the Shadow Ronin Go to faraway.gg/miniroyale Use $SOL to collect Shadow Ronin Shards in the weekly Premium Samurai Drop 20% of the Shadow Ronin Shards will also be accessible to Season 4 Premium Holders in Premium Contract quests from Jan 10 - Feb 6. Once you’ve collected all shards (120 total required), head to The Lab in miniroyale.io. Summon your Hero! You will receive 1 of 4 color variations of the Shadow Ronin skin. All Shadow Ronin Shards can be collected until January 16th. After this date, the Shadow Ronin will no longer be available, but don’t worry, you can always grab one in our Season 4 Premium Collection on Magic Eden."
             );
-            setShowImageTop("../public/images/announcements/Modal1A.png");
+            setShowImageTop("/images/announcements/Modal1A.png");
             setShowImageBottom("/../public/images/announcements/Modal1B.png");
           }}
           className="flex justify-center w-2/2 md:w-1/2 hover:opacity-50 hover:cursor-pointer "

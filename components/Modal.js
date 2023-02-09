@@ -5,6 +5,8 @@ import { BiCommentDetail } from "react-icons/bi";
 import { FiShare2 } from "react-icons/fi";
 import { HiOutlineX } from "react-icons/hi";
 
+import modal1A from "../public/images/announcements/Modal1A.png";
+
 const Modal = ({
   visible,
   onClose,
@@ -89,7 +91,7 @@ const Modal = ({
         <div className="flex justify-center py-2 px-4">
           <Image
             className="m-4 rounded-lg w-full"
-            src={"/" + imageTop}
+            src={imageTop}
             alt="Picture of the top"
             width={1000}
             height={1000}
