@@ -26,10 +26,12 @@ const Modal = ({
     if (e.target.id === "container") onClose();
   };
 
+  //used to define imageTop for vercel
   const [showImageTop, setShowImageTop] = useState("");
-
   useEffect(() => {
-    if (imageTop === "1A") setShowImageTop(modal1A);
+    if (imageTop === "/../public/images/announcements/Modal1A.png")
+      setShowImageTop(modal1A);
+    console.log(showImageTop);
   });
 
   if (!visible) return null;
