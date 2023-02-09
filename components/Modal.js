@@ -5,7 +5,7 @@ import { FiThumbsDown } from "react-icons/fi";
 import { BiCommentDetail } from "react-icons/bi";
 import { FiShare2 } from "react-icons/fi";
 import { HiOutlineX } from "react-icons/hi";
-
+import logo from "../public/images/announcements/logoFaraway.png";
 import modal1A from "../public/images/announcements/modal1A.png";
 import modal1B from "../public/images/announcements/modal1B.png";
 import modal2A from "../public/images/announcements/modal2A.png";
@@ -29,10 +29,21 @@ const Modal = ({
   //used to define imageTop for vercel
   const [showImageTop, setShowImageTop] = useState("");
   useEffect(() => {
-    if (imageTop === "/../public/images/announcements/Modal1A.png")
+    if (imageTop === "/../public/images/announcements/Modal1A.png") {
       setShowImageTop(modal1A);
-    console.log(showImageTop);
-  });
+    } else if (imageTop === "/../public/images/announcements/Modal2A.png") {
+      setShowImageTop(modal2A);
+    }
+  }, [imageTop]);
+
+  const [showImageBottom, setShowImageBottom] = useState("");
+  useEffect(() => {
+    if (imageBottom === "/../public/images/announcements/Modal1B.png") {
+      setShowImageBottom(modal1B);
+    } else if (imageBottom === "/../public/images/announcements/Modal2B.png") {
+      setShowImageBottom(modal2B);
+    }
+  }, [imageBottom]);
 
   if (!visible) return null;
   return (
@@ -49,7 +60,7 @@ const Modal = ({
             <div className="outline outline-1 outline-violet-800/30 rounded-full p-1 md:p-2">
               <Image
                 className="rounded-full"
-                src={announceLogo}
+                src={logo}
                 alt="Picture of the logo"
                 width={38}
                 height={38}
@@ -115,7 +126,7 @@ const Modal = ({
         <div className="flex justify-center py-2 px-4">
           <Image
             className="m-4 rounded-lg w-full"
-            src={imageBottom}
+            src={showImageBottom}
             alt="Picture of the bottom"
             width={1000}
             height={1000}
