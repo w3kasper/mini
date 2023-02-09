@@ -27,7 +27,7 @@ const Modal = ({
       onClick={handleOnClose}
       className="fixed inset-0 z-20 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-start overflow-y-auto"
     >
-      <div className=" bg-violet-950 outline outline-1 outline-violet-800/30 text-gray-200 rounded-lg w-2/2 m-8 sm:m-16 lg:w-1/2">
+      <div className=" bg-violet-950 outline outline-1 outline-violet-800/30 text-gray-200 rounded-lg w-2/2 m-7 sm:m-16 lg:w-2/5">
         {/**image and date */}
         <div className="flex justify-between pt-6">
           <div className="flex justify-center items-center space-x-3 px-3 sm:px-6 ">
@@ -41,16 +41,16 @@ const Modal = ({
               />{" "}
             </div>
             <div className="">
-              <div className="hidden md:block font-light">{postedBy}</div>
-              <div className="hidden md:block text-pink-600 font-semibold">
+              <div className="hidden md:flex font-light">{postedBy}</div>
+              <div className="hidden md:flex text-pink-600 font-semibold">
                 {announceDate}
               </div>
             </div>
           </div>
           {/**socails and x */}
-          <div className="flex items-center space-x-3 pr-3 sm:pr-8">
+          <div className="flex items-center space-x-1 md:space-x-3 pr-3 sm:pr-8">
             <div className="flex w-[80px] h-10 ">
-              <div className="hidden md:flex justify-center items-center outline outline-1 outline-violet-800/30 rounded-full w-full space-x-2 bg-violet-950 hover:cursor-pointer hover:bg-violet-800/30">
+              <div className="flex justify-center items-center outline outline-1 outline-violet-800/30 rounded-full w-full space-x-2 bg-violet-950 hover:cursor-pointer hover:bg-violet-800/30">
                 <div className="pb-[2px]">
                   <FiThumbsUp className="text-gray-200" size={20} />
                 </div>
@@ -65,7 +65,7 @@ const Modal = ({
             </div>
 
             <div className="">
-              <div className="flex justify-center items-center w-10 h-10 outline outline-1 outline-violet-800/30 rounded-full hover:bg-violet-800/30">
+              <div className="hidden md:flex justify-center items-center w-10 h-10 outline outline-1 outline-violet-800/30 rounded-full hover:bg-violet-800/30">
                 <FiShare2 className="text-gray-200" size={20} />
               </div>
             </div>
@@ -80,23 +80,28 @@ const Modal = ({
 
         {/**title */}
         <div className="flex justify-center">
-          <div className="text-2xl px-8 py-5">{textTitle}</div>
+          <div className="text-lg md:text-2xl px-8 pt-2 pb-1">{textTitle}</div>
+        </div>
+        <div className="flex md:hidden text-pink-600 font-semibold px-8">
+          {announceDate}
         </div>
 
         {/** IMAGE/TEXTBOX*/}
-        <div className="flex justify-center py-4 px-2">
+        <div className="flex justify-center py-2 px-4">
           <Image
-            className="m-4 rounded-lg "
+            className="m-4 rounded-lg w-full"
             src={imageTop}
             alt="Picture of the top"
             width={500}
             height={500}
           />{" "}
         </div>
-        <div className="px-6 md:px-8 xl:px-36 py-6">{textBlurb}</div>
-        <div className="flex justify-center py-4 px-2">
+        <div className="text-justify px-4 md:px-6 xl:px-10 py-2">
+          {textBlurb}
+        </div>
+        <div className="flex justify-center py-2 px-4">
           <Image
-            className="rounded-lg"
+            className="m-4 rounded-lg w-full"
             src={imageBottom}
             alt="Picture of the author"
             width={500}

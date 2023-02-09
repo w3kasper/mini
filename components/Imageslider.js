@@ -13,7 +13,7 @@ import prevButton from "../public/images/slider/prev.svg";
 
 import YoutubeEmbed from "./YoutubeEmbed";
 
-import { RxDotFilled } from "react-icons/rx";
+import { BsDashLg } from "react-icons/bs";
 import { RxDot } from "react-icons/rx";
 
 const featuredImages = [slider0, slider1, slider2, slider3, slider4, slider5];
@@ -23,7 +23,7 @@ const Imageslider = () => {
   //
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imageType, setImageType] = useState(true);
-  const [mediaType, setMediaType] = useState(false);
+  const [mediaType, setMediaType] = useState(true);
 
   const setCountTo0 = () => {
     setMediaType(0);
@@ -105,11 +105,13 @@ const Imageslider = () => {
 
   const renderImage = () => (
     <div className="grid cols-1 justify-items-stretch">
-      <Image
-        className="justify-self-center w-[1280px] px-8 pb-[8px] md:pb-2 pt-24 aspect-w-16 aspect-h-9"
-        src={featuredImages[currentIndex]}
-        alt=""
-      />
+      <div className="flex justify-self-center ">
+        <Image
+          className="w-[1280px] px-8 pb-[8px] md:pb-2 pt-24 aspect-w-16 aspect-h-9"
+          src={featuredImages[currentIndex]}
+          alt=""
+        />
+      </div>
     </div>
   );
 
@@ -153,46 +155,46 @@ const Imageslider = () => {
         <button onClick={handleOnNextClick}>
           <Image
             src={nextButton}
-            className=" opacity-40 hover:opacity-100"
+            className="opacity-40 hover:opacity-100"
             alt="/"
           />
         </button>
       </div>
       <div className="flex justify-center mb-4">
         <div className="container max-w-7xl">
-          <div className="text-white flex justify-center">
+          <div className="text-white flex justify-center space-x-3 md:space-x-5">
             <button onClick={setCountTo0}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
             </button>
             <button onClick={setCountTo1}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
             </button>
             <button onClick={setCountTo2}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
             </button>
             <button onClick={setCountTo3}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
             </button>
             <button onClick={setCountTo4}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
             </button>
             <button onClick={setCountTo5}>
-              <RxDotFilled
+              <BsDashLg
                 size={30}
                 className="text-gray-200 opacity-40 hover:opacity-100"
               />
@@ -220,15 +222,27 @@ const Imageslider = () => {
             </div>
 
             <div className=" md:hidden">
-              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
-                EXPLORE COLLECTION
-              </button>
+              <a
+                target="_blank"
+                href="https://magiceden.io/creators/miniroyale"
+                rel="noopener noreferrer"
+              >
+                <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
+                  EXPLORE COLLECTION
+                </button>
+              </a>
             </div>
 
             <div className="hidden md:block">
-              <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
-                EXPLORE COLLECTION
-              </button>
+              <a
+                target="_blank"
+                href="https://magiceden.io/creators/miniroyale"
+                rel="noopener noreferrer"
+              >
+                <button className="px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50">
+                  EXPLORE COLLECTION
+                </button>
+              </a>
               <button
                 className="ml-4 px-6 h-[40px] rounded bg-pink-600 text-white hover:brightness-50"
                 onClick={setCountToGame}

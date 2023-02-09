@@ -36,15 +36,34 @@ const About = () => {
                 <div className="rounded-full bg-violet-950 outline outline-1 outline-violet-800/[.4] text-lg px-4 py-1">
                   Battle Royale
                 </div>
-                <div className="mt-[9px] pl-3 hover:cursor-pointer hover:opacity-50">
-                  <BsGlobe2 size={19} />
-                </div>
-                <div className="mt-[7px] hover:cursor-pointer hover:opacity-50">
-                  <RiTwitterFill size={24} />
-                </div>
-                <div className="mt-[7px] hover:cursor-pointer hover:opacity-50">
-                  <FaDiscord size={23} />
-                </div>
+                <a
+                  target="_blank"
+                  href="https://miniroyale.io/"
+                  rel="noopener noreferrer"
+                >
+                  <div className="mt-[9px] pl-3 hover:cursor-pointer hover:opacity-50">
+                    <BsGlobe2 size={19} />
+                  </div>
+                </a>
+
+                <a
+                  target="_blank"
+                  href="https://twitter.com/MiniNations"
+                  rel="noopener noreferrer"
+                >
+                  <div className="mt-[7px] hover:cursor-pointer hover:opacity-50">
+                    <RiTwitterFill size={24} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://discord.com/invite/miniroyale"
+                  rel="noopener noreferrer"
+                >
+                  <div className="mt-[7px] hover:cursor-pointer hover:opacity-50">
+                    <FaDiscord size={23} />
+                  </div>
+                </a>
               </div>
               <div className="mt-6">
                 Mini Royale: Nations is a browser-based first-person-shooter set
@@ -70,20 +89,27 @@ const About = () => {
             {/**SIDE NOTES */}
             <div className="hidden md:block lg:w-4/12">
               {/**FEATURED COLLECTION */}
-              <div className="m-[15px] xl:m-[40px] mt-[28px] rounded-md bg-violet-950 outline outline-1 outline-violet-800/[.3] hover:opacity-50 hover:cursor-pointer">
-                <Image
-                  className="justify-self-center w-full rounded-lg"
-                  src={gameprofilepic}
-                  alt=""
-                />
 
-                <div className="text-center text-xl font-medium pt-2 underline decoration-violet-800/[.3] underline-offset-[6px]">
-                  Featured Collection
+              <a
+                target="_blank"
+                href="https://magiceden.io/marketplace/mrn_s4_premium"
+                rel="noopener noreferrer"
+              >
+                <div className="m-[15px] xl:m-[40px] mt-[28px] rounded-md bg-violet-950 outline outline-1 outline-violet-800/[.3] hover:opacity-50 hover:cursor-pointer">
+                  <Image
+                    className="justify-self-center w-full rounded-lg"
+                    src={gameprofilepic}
+                    alt=""
+                  />
+
+                  <div className="text-center text-xl font-medium pt-2 underline decoration-violet-800/[.3] underline-offset-[6px]">
+                    Featured Collection
+                  </div>
+                  <div className="text-center text-base font-light pt-2 pb-4 px-4">
+                    Mini Royale: Nations Season 4: Samarai Jackpot
+                  </div>
                 </div>
-                <div className="text-center text-base font-light pt-2 pb-4 px-4">
-                  Mini Royale: Nations Season 4: Samarai Jackpot
-                </div>
-              </div>
+              </a>
 
               {/**Game Notes */}
               <div className="m-[15px] xl:m-[40px] pt-[6px] rounded-lg bg-violet-950 outline outline-1 outline-violet-800/[.3]">

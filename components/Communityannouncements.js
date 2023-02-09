@@ -37,8 +37,13 @@ const Communityannouncements = () => {
         imageTop={showImageTop}
         imageBottom={showImageBottom}
       />
-      <div className="text-2xl font-medium underline decoration-violet-800/[.3] underline-offset-[6px]">
-        Community Announcements
+      <div className="flex justify-between">
+        <div className="text-2xl font-medium underline decoration-violet-800/[.3] underline-offset-[6px]">
+          Community Announcements
+        </div>
+        <div className="rounded-full bg-violet-950 outline outline-1 outline-violet-800/[.4] px-4 py-[6px] hover:opacity-50 hover:cursor-default ">
+          View All
+        </div>
       </div>
       <div className="flex pt-3">
         {/**Announce 1 */}

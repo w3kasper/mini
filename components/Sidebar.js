@@ -21,14 +21,14 @@ const Sidebar = () => {
       <div className="hidden md:block">
         <div className="flex flex-col w-[72px] h-screen text-gray-200 bg-violet-950 z-9 fixed border border-violet-950 border-r-violet-800/30">
           <div className="h-[15px]"></div>
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px]">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <BsStars />
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <TbActivityHeartbeat />
@@ -36,7 +36,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <AiOutlineUnorderedList />
@@ -44,7 +44,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <BiRocket />
@@ -52,7 +52,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <IoGameControllerOutline />
@@ -60,7 +60,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <IoMedalOutline />
@@ -68,7 +68,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <CiBookmarkRemove />
@@ -76,7 +76,7 @@ const Sidebar = () => {
             </div>
           </button>
 
-          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2">
+          <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] ml-[12px] mt-2 hover:cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <MdOutlineContactSupport />
@@ -87,22 +87,22 @@ const Sidebar = () => {
           <div className="absolute bottom-10">
             <div className=" w-[72px] border border-violet-950 border-t-violet-800/40 mb-3"></div>
             <div className="grid grid-cols-1 gap-2 ">
-              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px]">
+              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px] hover:cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineTwitter />
                 </div>
               </button>
-              <button className=" bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px]">
+              <button className=" bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px] hover:cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineInstagram />
                 </div>
               </button>
-              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px]">
+              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px] hover:cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineYoutube />
                 </div>
               </button>
-              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px]">
+              <button className="bg-violet-950 rounded w-[44px] h-[44px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] ml-[12px] hover:cursor-default">
                 <div className="flex justify-center">
                   <GrSnapchat />
                 </div>
@@ -116,8 +116,8 @@ const Sidebar = () => {
       <div className="hidden lg:block">
         <div className="flex flex-col items-center w-60 h-full text-gray-200 bg-violet-950 z-9 fixed border border-violet-950 border-r-violet-800/30">
           <div className="h-[95px]"></div>
-          <button className="bg-violet-950 rounded w-52 h-[44px] hover:bg-violet-800/[.15]">
-            <div className="flex">
+          <button className="bg-violet-950 rounded w-52 h-[44px] hover:bg-violet-800/[.15] cursor-default">
+            <div className="flex ">
               <div className="ml-4 mt-1">
                 <BsStars />
               </div>
@@ -127,8 +127,8 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
-            <div className="flex">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15] cursor-default">
+            <div className="flex ">
               <div className="ml-4 mt-1">
                 <TbActivityHeartbeat />
               </div>
@@ -138,8 +138,8 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
-            <div className="flex">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15] cursor-default">
+            <div className="flex ">
               <div className="ml-4 mt-1">
                 <AiOutlineUnorderedList />
               </div>
@@ -149,7 +149,7 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15] cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <BiRocket />
@@ -160,7 +160,7 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]  cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <IoGameControllerOutline />
@@ -171,7 +171,7 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]  cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <IoMedalOutline />
@@ -182,7 +182,7 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]  cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <CiBookmarkRemove />
@@ -193,7 +193,7 @@ const Sidebar = () => {
               </div>
             </div>
           </button>
-          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15]">
+          <button className="bg-violet-950 rounded w-52 h-[44px] mt-2 hover:bg-violet-800/[.15] cursor-default">
             <div className="flex">
               <div className="ml-4 mt-1">
                 <MdOutlineContactSupport />
@@ -207,22 +207,22 @@ const Sidebar = () => {
           <div className="absolute bottom-10">
             <div className="border border-violet-950 border-t-violet-800/40 mb-3"></div>
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4]">
+              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineTwitter />
                 </div>
               </button>
-              <button className=" bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4]">
+              <button className=" bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineInstagram />
                 </div>
               </button>
-              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4]">
+              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] cursor-default">
                 <div className="flex justify-center">
                   <AiOutlineYoutube />
                 </div>
               </button>
-              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4]">
+              <button className="bg-violet-950 rounded w-[100px] h-[28px] hover:bg-violet-800/[.15] outline outline-1 outline-violet-800/[.4] cursor-default">
                 <div className="flex justify-center">
                   <GrSnapchat />
                 </div>
