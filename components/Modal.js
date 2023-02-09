@@ -6,10 +6,10 @@ import { BiCommentDetail } from "react-icons/bi";
 import { FiShare2 } from "react-icons/fi";
 import { HiOutlineX } from "react-icons/hi";
 
-import modal1A from "../public/images/announcements/Modal1A.png";
-import modal1B from "../public/images/announcements/Modal1B.png";
-import modal2A from "../public/images/announcements/Modal2A.png";
-import modal2B from "../public/images/announcements/Modal2B.png";
+import modal1A from "../public/images/announcements/modal1A.png";
+import modal1B from "../public/images/announcements/modal1B.png";
+import modal2A from "../public/images/announcements/modal2A.png";
+import modal2B from "../public/images/announcements/modal2B.png";
 
 const Modal = ({
   visible,
