@@ -92,8 +92,6 @@ const Modal = ({
             className="m-4 rounded-lg w-full"
             src={imageTop}
             alt="Picture of the top"
-            width={500}
-            height={500}
           />{" "}
         </div>
         <div className="text-justify px-4 md:px-6 xl:px-10 py-2">
@@ -103,7 +101,7 @@ const Modal = ({
           <Image
             className="m-4 rounded-lg w-full"
             src={imageBottom}
-            alt="Picture of the author"
+            alt="Picture of the bottom"
             width={500}
             height={500}
           />{" "}
