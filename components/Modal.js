@@ -1,11 +1,15 @@
 import Image from "next/image";
+import React, { useState, useEffect } from "react";
 import { FiThumbsUp } from "react-icons/fi";
 import { FiThumbsDown } from "react-icons/fi";
 import { BiCommentDetail } from "react-icons/bi";
 import { FiShare2 } from "react-icons/fi";
 import { HiOutlineX } from "react-icons/hi";
 
-import community1 from "../public/images/about/community1.png";
+import modal1A from "../public/images/announcements/Modal1A.png";
+import modal1B from "../public/images/announcements/Modal1B.png";
+import modal2A from "../public/images/announcements/Modal2A.png";
+import modal2B from "../public/images/announcements/Modal2B.png";
 
 const Modal = ({
   visible,
@@ -22,6 +26,12 @@ const Modal = ({
     if (e.target.id === "container") onClose();
   };
 
+  const [showImageTop, setShowImageTop] = useState("");
+
+  useEffect(() => {
+    if (imageTop === "1A") setShowImageTop(modal1A);
+  });
+
   if (!visible) return null;
   return (
     <div
@@ -31,7 +41,7 @@ const Modal = ({
     >
       <div className=" bg-violet-950 outline outline-1 outline-violet-800/30 text-gray-200 rounded-lg w-2/2 m-7 sm:m-16 lg:w-2/5">
         {/**image and date */}
-        {console.log(community1)}
+        {/**console.log(community1)*/}
         <div className="flex justify-between pt-6">
           <div className="flex justify-center items-center space-x-3 px-3 sm:px-6 ">
             <div className="outline outline-1 outline-violet-800/30 rounded-full p-1 md:p-2">
@@ -91,7 +101,7 @@ const Modal = ({
         <div className="flex justify-center py-2 px-4">
           <Image
             className="m-4 rounded-lg w-full"
-            src={community1}
+            src={showImageTop}
             alt="Picture of the top"
             width={1000}
             height={1000}
