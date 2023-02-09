@@ -41,7 +41,7 @@ const Modal = ({
               />{" "}
             </div>
             <div className="">
-              <div className="hidden md:flex font-light">{postedBy}</div>
+              <div className="hidden md:flex font-light">{postedBy}xxxxx</div>
               <div className="hidden md:flex text-pink-600 font-semibold">
                 {announceDate}
               </div>
